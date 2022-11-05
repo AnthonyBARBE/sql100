@@ -1,18 +1,37 @@
 \documentclass[]{scrartcl}
 
 \usepackage{listings}
+\lstset{language=sql}  
+\usepackage{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
 
 %opening
-\title{}
-\author{}
+\title{sql100 v 1.0}
+\author{Anthony BARBÉ}
 
 \begin{document}
-\lstset{language=sql}   
+ 
 
-\section{Afficher tout les titres de films sortis après 2004.}
+\date{}
+\maketitle
+
+\begin{center}
+	Retrouver la dernière version de ce document sur : \\
+	\url{https://github.com/AnthonyBARBE/sql100}
+		
+\end{center}
+
+
+\newpage
+
+\section{Énoncés}
+
+\subsection{Afficher tout les titres de films sortis après 2004.}
+	\includegraphics[scale=.5]{1}
 	
 
-\section{Traduire en français ce qu'affiche la requete suivante :}
+\subsection{Traduire en français ce qu'affiche la requete suivante :}
 
 \begin{lstlisting}[frame=single]  
 	SELECT annee, titre 
@@ -20,23 +39,32 @@
 	WHERE millesime>2004;
 \end{lstlisting}
 
-\section{Afficher la liste des acteurs du film 'volver'}
+\subsection{Afficher la liste des acteurs du film 'volver'}
+	\includegraphics[scale=.5]{3}
 
-\section{Qui a passé commande le 6 du mois ?}
+\subsection{Qui a passé commande le 6 du mois ?}
+	\includegraphics[scale=.5]{4}
+	
+\subsection{Combien y a-t-il de genres commençant par la lettre 'o' ?}
+	\includegraphics[scale=.5]{5}
 
-\section{Combien y a-t-il de genres commençant par la lettre 'o' ?}
+\subsection{Afficher le nombre total de commande pour chaque ville, classé par ordre décroissant}
+	\includegraphics[scale=.5]{6}
 
-\section{Afficher le nombre total de commande pour chaque ville, classé par ordre décroissant}
+\subsection{Récupérer les informations pour éditer les factures des trois dernières commandes (supposer des locations au format DVD et les prix de la table sont HT)}
+	\includegraphics[scale=.4]{7}
 
-\section{Récupérer les informations pour éditer les factures des trois dernières commandes}
+\subsection{Afficher le dernier film commandé pour chaque client qui a un 'e' dans son prénom}
+	\includegraphics[scale=.5]{8}
 
-\section{Afficher la liste des derniers films commandés pour chaque client}
+\subsection{Pour chaque film, afficher la différence de prix d'une location en streaming par rapport à la moyenne du prix des locations en streaming}
+	\includegraphics[scale=.5]{9}
 
-\section{Pour chaque genre, afficher la différence de prix d'une location en streaming par rapport à la moyenne du prix des locations en streaming}
+\subsection{Quel acteur(s) jouai(en)t dans le premier film commandé ?}
+	\includegraphics[scale=.5]{10}
 
-\section{Quel acteur(s) jouai(en)t dans le premier film commandé ?}
-
-\section{Traduire en français ce qu'affiche la requete suivante :}
+\subsection{Traduire en français ce qu'affiche la requete suivante :}
+  
 
 \begin{lstlisting}[frame=single]  
 	SELECT film.titre
