@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.5)  4 NOV 2022 22:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.10.5)  5 NOV 2022 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -192,10 +192,10 @@ LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./projet100.aux) ) 
 Here is how much of TeX's memory you used:
- 5205 strings out of 480218
- 103604 string characters out of 5894882
- 690545 words of memory out of 5000000
- 23190 multiletter control sequences out of 15000+600000
+ 5213 strings out of 480218
+ 103705 string characters out of 5894882
+ 701545 words of memory out of 5000000
+ 23198 multiletter control sequences out of 15000+600000
  471119 words of font info for 34 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,7n,106p,10604b,1505s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -204,7 +204,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
-Output written on projet100.pdf (1 page, 48485 bytes).
+Output written on projet100.pdf (1 page, 52536 bytes).
 PDF statistics:
  28 PDF objects out of 1000 (max. 8388607)
  16 compressed objects within 1 object stream

@@ -26,9 +26,26 @@
 
 \section{Combien y a-t-il de genres commençant par la lettre 'o' ?}
 
-\section{Afficher le nomnbre total de commande pour chaque ville, classé par ordre décroissant}
+\section{Afficher le nombre total de commande pour chaque ville, classé par ordre décroissant}
 
-\section{Afficher le genre qui a le plus de films et celui qui en a le moins.}
+\section{Récupérer les informations pour éditer les factures des trois dernières commandes}
+
+\section{Afficher la liste des derniers films commandés pour chaque client}
+
+\section{Pour chaque genre, afficher la différence de prix d'une location en streaming par rapport à la moyenne du prix des locations en streaming}
+
+\section{Quel acteur(s) jouai(en)t dans le premier film commandé ?}
+
+\section{Traduire en français ce qu'affiche la requete suivante :}
+
+\begin{lstlisting}[frame=single]  
+	SELECT film.titre
+	FROM film
+	JOIN concerner ON film.film_id=concerner.film_id
+	JOIN commande c ON concerner.commande_id=c.commande_id
+	ORDER BY commande.date_comm DESC
+	LIMIT 1;
+\end{lstlisting}
 
 
 
